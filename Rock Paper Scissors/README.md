@@ -1,38 +1,31 @@
-**Rock Paper Scissors Game**
+🎮 **Rock Paper Scissors Game**
+This is a fun and interactive Rock Paper Scissors game built using HTML, CSS, and JavaScript. Play against the computer and see who scores the most points. The game is simple, fast, and works right in your browser!
 
-A simple and interactive Rock Paper Scissors game built with HTML, CSS, and JavaScript. The player competes against the computer, and scores are tracked dynamically.
+📁 **Project Files**
+index.html – The main HTML file that structures the game UI.
 
-📂 Project Structure
+style.css – Contains all styles for layout, colors, and responsiveness.
 
-graphql
-Copy
-Edit
-├── index.html     # Main HTML structure of the game
-├── style.css      # Styles for layout, colors, and responsiveness
-└── script.js      # Game logic and interactivity
-🎮 How to Play
+script.js – Core JavaScript logic for:
 
+Handling player clicks
+
+Generating computer choices
+
+Determining winners
+
+Updating the scoreboard
+
+Showing result messages
+
+💻 **How to Play**
 Open index.html in your browser.
 
-Click on your choice — Rock, Paper, or Scissors.
+Click on your move — Rock, Paper, or Scissors.
 
-The computer randomly selects its choice.
+The computer will choose its move automatically.
 
-The game displays:
-
-Winner of the round
-
-Scoreboard (Human vs Computer)
-
-A message showing the outcome (Win / Lose / Draw)
-
-🛠 Features
-
-Interactive UI with clickable images.
-
-Dynamic score tracking for both the human player and the computer.
-
-Color-coded result messages:
+The winner of the round is announced with a color-coded message:
 
 🟩 Green → Player wins
 
@@ -40,22 +33,53 @@ Color-coded result messages:
 
 🟨 Yellow → Draw
 
-Responsive design (adaptable for various screen sizes).
+The scoreboard updates after every round.
 
-📜 Technologies Used
+✅ **Supported Platforms**
+You can run this game on:
 
-HTML5 – Page structure.
+Any modern web browser (Chrome, Firefox, Edge, Safari)
 
-CSS3 – Styling and layout.
+VS Code with the Live Server extension
 
-JavaScript (ES6) – Game logic and DOM manipulation.
+Live Share in VS Code for collaborative play/testing
 
-Font Awesome – Icons for better visuals.
+🔧 Option 1: Run Locally on Your Computer
+Download or clone this repository:
 
-🚀 Getting Started
+bash
+Copy
+Edit
+git clone https://github.com/your-username/rock-paper-scissors.git
+Make sure the following image files are in the same folder as index.html:
 
-Download or clone the repository.
+paper img.png
 
-Make sure the image files (paper img.png, rock img.png, scissor img.png) are in the same folder as index.html.
+rock img.png
 
-Open index.html in your browser to start playing.
+scissor img.png
+
+Open index.html in your browser and start playing!
+
+🛠 **Features**
+Interactive UI with clickable images
+
+Dynamic score tracking for Human and Computer
+
+Color-coded results for instant feedback
+
+Responsive design that works on desktop and mobile
+
+Uses Font Awesome icons for a modern look
+
+📜 **Technologies Used**
+HTML5 – Game structure
+
+CSS3 – Styling and layout
+
+JavaScript (ES6) – Game logic and DOM manipulation
+
+Font Awesome – Icons for better visuals
+
+🙋‍♂️ **Author**
+Shlok Jain
