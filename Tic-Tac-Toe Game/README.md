@@ -24,9 +24,11 @@ You can run this game on:
 
 ### 🔧 Run Locally on Your Computer
 
-1. Download or clone this repository:
+Download or clone this repository:
    ```bash
    git clone https://github.com/your-username/tic-tac-toe.git
+```  
+---
 
-🙋‍♂️ Author
+# 🙋‍♂️ Author  
 Shlok Jain
