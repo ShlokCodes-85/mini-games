@@ -22,7 +22,7 @@ You can run this game on:
 - **VS Code** with the **Live Server** extension
 - **Live Share in VS Code** for collaborative play/testing
 
-### 🔧 Option 1: Run Locally on Your Computer
+### 🔧 Run Locally on Your Computer
 
 1. Download or clone this repository:
    ```bash
