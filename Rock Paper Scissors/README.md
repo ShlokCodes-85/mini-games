@@ -1,4 +1,5 @@
 🎮 **Rock Paper Scissors Game**
+
 This is a fun and interactive Rock Paper Scissors game built using HTML, CSS, and JavaScript. Play against the computer and see who scores the most points. The game is simple, fast, and works right in your browser!
 
 📁 **Project Files**
