@@ -6,7 +6,9 @@ This is a fun and interactive Rock Paper Scissors game built using HTML, CSS, an
 # 📁 Project Files  
 - `index.html` – The main HTML file that structures the game UI  
 - `style.css` – Contains all styles for layout, colors, and responsiveness  
-- `script.js` – Core JavaScript logic for:  
+- `script.js` – Core JavaScript logic for:
+
+
 Handling player clicks  
 Generating computer choices  
 Determining winners  
@@ -16,10 +18,10 @@ Showing result messages
 ---
 
 # 💻 How to Play  
-Open index.html in your browser.  
-Click on your move — Rock, Paper, or Scissors.  
-The computer will choose its move automatically.  
-The winner of the round is announced with a color-coded message:
+1. Open index.html in your browser.  
+2. Click on your move — Rock, Paper, or Scissors.  
+3. The computer will choose its move automatically.  
+4. The winner of the round is announced with a color-coded message:  
 
 🟩 Green → Player wins
 
@@ -39,7 +41,9 @@ Live Share in VS Code for collaborative play/testing
 
 🔧 Run Locally on Your Computer  
 Download or clone this repository:  
+```bash
 git clone https://github.com/your-username/rock-paper-scissors.git
+```  
 Make sure the image files:  
 paper img.png  
 rock img.png  
