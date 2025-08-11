@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Rock Paper Scissors Game</title>
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <h1><i class="fa-regular fa-hand-scissors"></i>&nbsp;&nbsp;<i class="fa-regular fa-hand-back-fist" style="transform: scaleX(-1)"></i>&nbsp;&nbsp;<i class="fa-regular fa-hand" style="transform: scaleX(-1)"></i></i>&nbsp;&nbsp;Rock Paper Scissors&nbsp;&nbsp;<i class="fa-regular fa-hand"></i>&nbsp;&nbsp;<i class="fa-regular fa-hand-back-fist"></i>&nbsp;&nbsp;<i class="fa-regular fa-hand-scissors" style="transform: scaleX(-1)"></i></h1>
+        </div>
+    </header>
+    <main>
+        <div class="choices">
+            <div class="human">
+                <img src="paper img.png" id="paper">
+                <img src="rock img.png" id="rock">
+                <img src="scissor img.png" id="scissors">
+                <h1>Human</h1>
+            </div>
+        </div>
+        <div class="result">
+            <div class="result-h">
+                <p id="h-score">0</p>
+                <p id="h-text"><i class="fa-solid fa-person"></i>&nbsp;&nbsp;Human&nbsp;&nbsp;<i class="fa-solid fa-person"></i></p>
+            </div>
+            <div class="result-c">
+                <p id="c-score">0</p>
+                <p id="c-text"><i class="fa-solid fa-robot"></i>&nbsp;&nbsp;Computer&nbsp;&nbsp;<i class="fa-solid fa-robot"></i></p>
+            </div>
+        </div>
+        <div class="msg-container">
+            <p class="msg">Play Your Move!</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
