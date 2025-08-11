@@ -4,9 +4,9 @@ This is a fun and interactive Rock Paper Scissors game built using HTML, CSS, an
 ---
 
 # 📁 Project Files  
--`index.html` – The main HTML file that structures the game UI  
--`style.css` – Contains all styles for layout, colors, and responsiveness  
--`script.js` – Core JavaScript logic for:  
+- `index.html` – The main HTML file that structures the game UI  
+- `style.css` – Contains all styles for layout, colors, and responsiveness  
+- `script.js` – Core JavaScript logic for:  
 Handling player clicks  
 Generating computer choices  
 Determining winners  
