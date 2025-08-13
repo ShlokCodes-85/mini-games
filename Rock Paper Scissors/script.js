@@ -39,8 +39,6 @@ const showWinner = (userwin, human_choice, comp_choice) => {
 
 const playgame = (human_choice) => {
     const comp_choice = gencompchoice()
-    console.log("Computer choice:", comp_choice)
-    console.log("User choice:", human_choice)
     if (human_choice === comp_choice){
         message.innerText = "It's a draw!"
         message.style.backgroundColor = "#FFD700"
@@ -56,4 +54,5 @@ const playgame = (human_choice) => {
         }
         showWinner(userwin, human_choice, comp_choice)
     }
+
 }
